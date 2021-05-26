@@ -1,0 +1,22 @@
+i dont know how people normally make it executable and beautiful
+
+ideally this program works for multiple universities, but no idea how to store that stuff separately
+also have to maybe figure out quarter vs semester
+
+also how do u plan to do the user interface? we could just go with the yolo console output or do c++ gui
+
+1. main class
+2. class to handle reading/writing to file (maybe split into 2 classes)
+3. class to figure out how do we store data in file
+4. class to read file and convert it to understandable classes
+5. ??
+6. ??
+7. ??
+8. ??
+9. ??
+10. ??
+11. ??
+12. ??
+13. ??
+14. ??
+15. ??
