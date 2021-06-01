@@ -5,7 +5,7 @@ namespace course {
 
 using std::string;
 
-course::Course::Course(const string& course_name) : course_name_(course_name) {
+Course::Course(const string& course_name) : course_name_(course_name) {
   std::cout << "I AM A CONSTRUCTOR" << std::endl;
 }
 

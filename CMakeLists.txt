@@ -46,7 +46,8 @@ if(NOT catch2_POPULATED)
 endif()
 
 
-list(APPEND CORE_SOURCE_FILES src/backend/course.cpp)
+list(APPEND CORE_SOURCE_FILES src/backend/course.cpp 
+                              src/user_interface/command_line_interface.cpp)
 
 # add the executable
 add_executable(scheduling_optimizer main.cc ${CORE_SOURCE_FILES})
