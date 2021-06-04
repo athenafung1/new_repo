@@ -47,7 +47,8 @@ endif()
 
 
 list(APPEND CORE_SOURCE_FILES src/backend/course.cpp 
-                              src/user_interface/command_line_interface.cpp)
+                              src/user_interface/command_line_interface.cpp
+                              src/backend/file_parser.cc)
 
 # add the executable
 add_executable(scheduling_optimizer main.cc ${CORE_SOURCE_FILES})
