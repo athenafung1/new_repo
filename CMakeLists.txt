@@ -51,7 +51,7 @@ list(APPEND CORE_SOURCE_FILES src/backend/course.cpp
                               src/backend/file_parser.cc)
 
 # add the executable
-add_executable(scheduling_optimizer main.cc ${CORE_SOURCE_FILES})
+add_executable(scheduling_optimizer main.cc ${CORE_SOURCE_FILES} "src/backend/course.hpp")
 target_link_libraries(scheduling_optimizer json_lib)
 target_include_directories(scheduling_optimizer PUBLIC include)
 
